@@ -1,0 +1,31 @@
+title: Moses Varghese's Homepage
+author: moses-varghese
+email: mosespv407@gmail.com
+
+remote_theme: thelehhman/plainwhite-jekyll
+sass:
+        sass_dir: _sass
+plainwhite:
+        name: Moses Prasad Varghese
+        email: mosespv407@gmail.com
+        tagline: Aspiring Data Scientist
+        date_format: "%b %-d, %Y"
+        dark_mode: true
+
+        social_links:
+                github: moses-varghese
+                linkedIn: in/moses-p-varghese
+                gScholar: DyT2yOsAAAAJ
+                Scopus: 57211365223
+                ORCID: 0000-0002-9352-5855
+
+        content: >
+          <p>I have a Masters degree in Mechanical Engineering (Data Science) from <a href="https://www.uw.edu/">University of Washington</a>, and a Bachelors degree from
+          <a href="http://www.nitrkl.ac.in/">National Institute of Technolgy, Rourkela</a> in Mechanical Engineering, where I co-authored a <a href="https://doi.org/10.1016/j.apacoust.2019.07.024">reswerch article</a> 
+          on Coupled nonlinear behavior of beam with a moving mass which analyses the complex nonlinear dynamic behaviors of a comprehensive coupled analytical nonlinear geometric model 
+          of beam-mass system with their potential applications in engineering design and small-scale electronic devices.</p>
+          
+        
+
+plugins:
+        - jekyll-seo-tag
