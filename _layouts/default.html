@@ -53,11 +53,15 @@
 			    <div class="projects">
 					<h2>Projects</h2>
 					<div class="project-item">
-						<img src="{{ "/docs/pic.jpg" | relative_url }}" alt="Project Name">
-						<h3>Project Name</h3>
-						<p>Your project description goes here. You can describe the key features, technologies used, and outcomes of your project.</p>
+						<img src="{{ "/docs/vision.png" | relative_url }}" alt="Project Name">
+						<h3>Lane Detection using computer vision</h3>
+						<p>This project is the reimplementation of the <a href="https://arxiv.org/abs/2204.07335">Lane detection paper which 
+							uses ResNet architecture. Our modified implementation is based on ResNeXt-50 and ReNeXt-101 architecture fintuned on 
+							ImageNet weights with F1 Score 95.33% and 91.71%. More details of the projects can be found <a href="https://moses-varghese.github.io/docs/CSE576_report.pdf"> 
+							in our analysis</a></p>
 					</div>
-				</div>	
+				</div>
+
 		</section>
 	</main>
 	{%- if site.plainwhite.analytics_id -%}
