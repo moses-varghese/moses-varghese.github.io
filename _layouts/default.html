@@ -49,6 +49,15 @@
 			<h1>{{ site.plainwhite.name }}</h1>
 			{{ site.plainwhite.content }}
                 {%- endif -%}
+
+			    <div class="projects">
+					<h2>Projects</h2>
+					<div class="project-item">
+						<img src="{{ "/docs/pic.jpg" | relative_url }}" alt="Project Name">
+						<h3>Project Name</h3>
+						<p>Your project description goes here. You can describe the key features, technologies used, and outcomes of your project.</p>
+					</div>
+				</div>	
 		</section>
 	</main>
 	{%- if site.plainwhite.analytics_id -%}
